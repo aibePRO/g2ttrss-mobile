@@ -2,7 +2,7 @@ g2ttrss-mobile
 ==============
 
 A Google inspired mobile interface for TT-RSS.
-
+I decide to retake this project and add some few tweaks and customization. Everyone is invited...
 
 What is it?
 -----------
