@@ -1,5 +1,5 @@
 <?php
-require_once 'simple_html_dom.php';
+require_once 'library/simple_html_dom.php';
 $html = 'MIERDA!';
 if (isset($_GET['r']) && filter_var($_GET['r'], FILTER_VALIDATE_URL)) {
     $curl = curl_init(); 
@@ -48,17 +48,17 @@ if (isset($_GET['r']) && filter_var($_GET['r'], FILTER_VALIDATE_URL)) {
     readMargin = 'margin-x-narrow';
     _readability_script = document.createElement('script');
     _readability_script.type = 'text/javascript';
-    _readability_script.src = 'https://aibe.pro/read/js/readability.js?x=' + (Math.random());
+    _readability_script.src = 'library/read/js/readability.js?x=' + (Math.random());
     document.documentElement.appendChild(_readability_script);
     _readability_css = document.createElement('link');
     _readability_css.rel = 'stylesheet';
-    _readability_css.href = 'https://aibe.pro/read/css/readability.css?1';
+    _readability_css.href = 'library/read/css/readability.css?1';
     _readability_css.type = 'text/css';
     _readability_css.media = 'all';
     document.documentElement.appendChild(_readability_css);
     _readability_print_css = document.createElement('link');
     _readability_print_css.rel = 'stylesheet';
-    _readability_print_css.href = 'https://aibe.pro/read/css/readability-print.css';
+    _readability_print_css.href = 'library/read/css/readability-print.css';
     _readability_print_css.media = 'print';
     _readability_print_css.type = 'text/css';
     document.getElementsByTagName('head')[0].appendChild(_readability_print_css);

@@ -17,7 +17,8 @@ CSS styles from Google.
 
 g2ttrss-mobile use:
  * [jQuery](http://jquery.com/)
-
+ * [Readability](https://code.google.com/archive/p/arc90labs-readability/)
+ * [PHP Simple HTML DOM Parser](http://sourceforge.net/projects/simplehtmldom/)
 
 How to use it?
 --------------
