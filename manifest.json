@@ -1,0 +1,21 @@
+{
+  "short_name": "AIBE's tt-rss",
+  "name": "AIBE's tt-rss",
+  "icons": [
+    {
+      "src": "images/Google-Reader-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/g2ttrss/index.html",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/g2ttrss/",
+  "theme_color": "#FFFFFF"
+}
